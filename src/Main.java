@@ -16,7 +16,8 @@ public class Main {
             System.out.println();
             integersList.subList(0, 0).forEach(System.out::print);
             System.out.println();
-            data.add(new ArrayList<>(integersList.subList(0, 1)));
+            //data.add(new ArrayList<>(integersList.subList(0, 1))); this is the correct and safe way
+            data.add(integersList.subList(0, 1)); // this way we will have soon OOM error
 
             Thread.sleep(200);
 
