@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java-sublist:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_sublist_jar</output-path>
+    <root id="archive" name="java-sublist.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="java-sublist" />
+    </root>
+  </artifact>
+</component>
