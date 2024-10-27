@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="start" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Main" />
+    <module name="java-sublist" />
+    <option name="VM_PARAMETERS" value="-Xms200m -Xmx200m -javaagent:$PROJECT_DIR$/out/artifacts/java_sublist_jar/java-sublist.jar" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
