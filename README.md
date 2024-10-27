@@ -28,3 +28,5 @@ jar cmf MANIFEST.MF object-size-fetcher.jar src/ObjectSizeFetcher.class
 ```bash
 -Xms200m -Xmx200m -javaagent:/home/lu/sys/memory-leak/java-sublist/out/artifacts/java_sublist_jar/java-sublist.jar
 ```
+
+Explained in portuguese (PT-BR) in this video: https://youtu.be/6zn4k8S-By4
